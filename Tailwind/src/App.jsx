@@ -22,15 +22,40 @@ function App() {
           count is {count}
         </button>
         <br /><br />
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+        <p className="font-primary rtl"> 
+        سلام ! برای ویرایش فایل ها به آدرس زیر مراجعه کنید :
+        <br /><br />
+        <code>src/App.jsx</code> 
         </p>
       </div>
-      <p className="text-3xl font-bold text-cyan-600 drop-shadow-lg">
+      <p className="text-3xl font-bold text-cyan-600 drop-shadow-lg font-mono">
         Click on the Vite and React logos to learn more
       </p>
       <br /><br />
       <button className="bg-cyan-500 shadow-lg shadow-cyan-500/50 text-white">Subscribe</button>
+      <br /><br />
+      <table class="border-collapse border border-slate-400 w-96 h-40 justify-center items-center mx-auto mt-5">
+  <thead>
+    <tr>
+      <th class="border border-slate-300 bg-gray-200 cursor-pointer">State</th>
+      <th class="border border-slate-300 bg-gray-200 cursor-pointer">City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="border border-slate-300 ...">Indiana</td>
+      <td class="border border-slate-300 ...">Indianapolis</td>
+    </tr>
+    <tr>
+      <td class="border border-slate-300 ...">Ohio</td>
+      <td class="border border-slate-300 ...">Columbus</td>
+    </tr>
+    <tr>
+      <td class="border border-slate-300 ...">Michigan</td>
+      <td class="border border-slate-300 ...">Detroit</td>
+    </tr>
+  </tbody>
+</table>
     </>
   )
 }
