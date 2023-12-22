@@ -18,9 +18,10 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button className="bg-blue-500 shadow-lg shadow-blue-500/50 text-white" onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <br /><br />
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
@@ -28,7 +29,8 @@ function App() {
       <p className="text-3xl font-bold text-cyan-600 drop-shadow-lg">
         Click on the Vite and React logos to learn more
       </p>
-
+      <br /><br />
+      <button className="bg-cyan-500 shadow-lg shadow-cyan-500/50 text-white">Subscribe</button>
     </>
   )
 }
